@@ -1,0 +1,7 @@
+D:\Files\Git\UML_Study\HomeWork1_1\bin\Debug\HomeWork1_1.exe.config
+D:\Files\Git\UML_Study\HomeWork1_1\bin\Debug\HomeWork1_1.exe
+D:\Files\Git\UML_Study\HomeWork1_1\bin\Debug\HomeWork1_1.pdb
+D:\Files\Git\UML_Study\HomeWork1_1\obj\Debug\HomeWork1_1.csprojAssemblyReference.cache
+D:\Files\Git\UML_Study\HomeWork1_1\obj\Debug\HomeWork1_1.csproj.CoreCompileInputs.cache
+D:\Files\Git\UML_Study\HomeWork1_1\obj\Debug\HomeWork1_1.exe
+D:\Files\Git\UML_Study\HomeWork1_1\obj\Debug\HomeWork1_1.pdb

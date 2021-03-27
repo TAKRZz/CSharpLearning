@@ -1,0 +1,7 @@
+D:\Files\Git\CSharpLearning\HomwWork2\HomeWork2_3\bin\Debug\HomeWork2_3.exe.config
+D:\Files\Git\CSharpLearning\HomwWork2\HomeWork2_3\bin\Debug\HomeWork2_3.exe
+D:\Files\Git\CSharpLearning\HomwWork2\HomeWork2_3\bin\Debug\HomeWork2_3.pdb
+D:\Files\Git\CSharpLearning\HomwWork2\HomeWork2_3\obj\Debug\HomeWork2_3.csprojAssemblyReference.cache
+D:\Files\Git\CSharpLearning\HomwWork2\HomeWork2_3\obj\Debug\HomeWork2_3.csproj.CoreCompileInputs.cache
+D:\Files\Git\CSharpLearning\HomwWork2\HomeWork2_3\obj\Debug\HomeWork2_3.exe
+D:\Files\Git\CSharpLearning\HomwWork2\HomeWork2_3\obj\Debug\HomeWork2_3.pdb
