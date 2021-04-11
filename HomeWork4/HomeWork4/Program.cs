@@ -58,7 +58,6 @@ namespace HomeWork4
         {
             return this.OrderNum.ToString() + " " + this.Details.ToString();
         }
-
         public Order(int orderNum, OrderDetails details)
         {
             OrderNum = orderNum;
@@ -108,9 +107,13 @@ namespace HomeWork4
             }
         }
 
-        public void Shuffle()
+        public void ShuffleByNum()
         {
-            list1.Sort();
+            list1.Sort((x, y) => x.OrderNum.CompareTo(y.OrderNum));
+        }
+        public void ShuffleByCost()
+        {
+            list1.Sort((x, y) => x.Details.OrderCost.CompareTo(y.Details.OrderCost));
         }
         public void ShowMenu()
         {
@@ -135,7 +138,7 @@ namespace HomeWork4
             int n2 = int.Parse(Console.ReadLine());
             Order o1 = new Order(n1, new OrderDetails(str1, str2, n2));
             list1.Add(o1);
-            Shuffle();
+            ShuffleByNum();
             System.Console.WriteLine("添加成功！ ");
             System.Console.WriteLine("按下回车键以继续 ");
             string str = Console.ReadLine();
@@ -240,14 +243,18 @@ namespace HomeWork4
                     //    }
                     //}
                     // 感觉linq没有直接用foreach来得快
+                    ShuffleByCost();
                     var seq = from o1 in list1 where o1.OrderNum == num1 orderby o1.OrderNum select o1;
                     List<Order> l2 = seq.ToList();
+                    
                     foreach (Order o1 in l2)
                     {
                         System.Console.WriteLine(o1.ToString());  
                     }
                     break;
                 case 2:
+                    ShuffleByCost();
+
                     System.Console.WriteLine("输入商品名称： ");
                     string str1 = Console.ReadLine();
                     foreach (Order o1 in list1)
@@ -259,6 +266,8 @@ namespace HomeWork4
                     }
                     break;
                 case 3:
+                    ShuffleByCost();
+
                     System.Console.WriteLine("输入商品名称： ");
                     string str2 = Console.ReadLine();
                     foreach (Order o1 in list1)
@@ -270,6 +279,8 @@ namespace HomeWork4
                     }
                     break;
                 case 4:
+                    ShuffleByCost();
+
                     System.Console.WriteLine("输入订单编号： ");
                     int num2 = int.Parse(Console.ReadLine());
                     foreach (Order o1 in list1)
