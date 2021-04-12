@@ -213,7 +213,7 @@ namespace HomeWork4
                 Order o1 = new Order(n1, new OrderDetails(str1, str2, n2));
                 list1.RemoveAt(ind);
                 list1.Insert(ind, o1);
-                Shuffle();
+                ShuffleByNum();
                 System.Console.WriteLine("修改成功！ ");
                 System.Console.WriteLine("按下回车键以继续 ");
                 string str = Console.ReadLine();
