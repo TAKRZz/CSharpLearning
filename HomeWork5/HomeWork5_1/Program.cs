@@ -74,7 +74,7 @@ namespace HomeWork5_1
 
         public void Start()
         {
-            Import();
+            //Import();
             ShowMenu();
             int n = -1;
             n = int.Parse(System.Console.ReadLine());
@@ -328,6 +328,7 @@ namespace HomeWork5_1
             {
                 list1 = (List<Order>)xmls.Deserialize(fs);
             }
+
         }
         //e2.对订单程序中OrderService的各个Public方法添加测试用例。
 
