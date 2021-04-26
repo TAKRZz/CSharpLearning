@@ -1,0 +1,11 @@
+D:\Files\Git\CSharpLearning\HomeWork6\bin\Debug\HomeWork6.exe.config
+D:\Files\Git\CSharpLearning\HomeWork6\bin\Debug\HomeWork6.exe
+D:\Files\Git\CSharpLearning\HomeWork6\bin\Debug\HomeWork6.pdb
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.csprojAssemblyReference.cache
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.Form1.resources
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.Properties.Resources.resources
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.csproj.GenerateResource.cache
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.csproj.CoreCompileInputs.cache
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.exe
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.pdb
+D:\Files\Git\CSharpLearning\HomeWork6\obj\Debug\HomeWork6.FormAddorDel.resources
